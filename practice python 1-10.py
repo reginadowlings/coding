@@ -48,7 +48,7 @@ for i in range(1, user_number+1):
 '''def common_numbers(list1, list2): 
     result = []
 
-    set_1 = set(list1)
+    set_1 = set(list1) 
     set_2 = set(list2)
 
     for ele in set_1:
@@ -142,7 +142,6 @@ elif user_guess > random_guess:
     print('your guess is too high')
 else:
     print('no correct input entered')'''
-
 
 
 

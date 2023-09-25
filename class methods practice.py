@@ -51,5 +51,3 @@ print(group_2.artist())
 
 
 
-
-

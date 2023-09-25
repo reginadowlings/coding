@@ -50,3 +50,14 @@ for mail in emails:
         print(mail + ' is valid')
     else:
         print(mail + ' is invalid')
+
+
+
+
+
+
+
+
+
+
+        

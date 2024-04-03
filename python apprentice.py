@@ -532,7 +532,7 @@ print( "Done" )'''
 
 # A Short Program: Guess the Number
 
-'''import random
+import random
 
 secretNumber = random.randint(1, 20)
 print('I am thinking of a number between 1 and 20.')
@@ -598,15 +598,15 @@ else:
 
 
 # from lesson import add     #this code imports an addition function from another file named lesson.py
-'''
+
 numbers = (2, 4, 6)   #this are the numbers to be added 
 total = add(numbers)      #call the add function to sum up the numbers
 print(total)
 '''
+from shapely.geometry import Point
 
-
-
-
+num1 = Point(2,4)
+print(num1)
 
 
 

@@ -84,8 +84,8 @@ secs_in_a_week= secs_in_a_day * 7
 print('there are', secs_in_a_week, 'in a week' )
 
 
-The cover price of a book is $24.95, but bookstores get a 40 percent discount. Shipping costs $3 for the first copy and 75 cents for
-each additional copy. Calculate the total wholesale costs for 60 copies.
+# The cover price of a book is $24.95, but bookstores get a 40 percent discount. Shipping costs $3 for the first copy and 75 cents for
+# each additional copy. Calculate the total wholesale costs for 60 copies.
 
 cover_price = 24.95 * 60
 discount_amt = (40/100) * cover_price
@@ -101,7 +101,7 @@ print(total_cost)
 # You look at the clock and see that it is currently 14.00h. You set an alarm to go off 535 hours later. At what time will the alarm go 
 # off? Write a program that prints the answer. Hint: for the best solution, you will need the modulo operator.
 
-alarm_off = (14 +535) % 24
+alarm_off = (14 + 535) % 24
 print(alarm_off,'.00')
 
 
@@ -359,12 +359,8 @@ if x % 7 == 0:
 # --- Here starts a nested block of code ---
     if x%11 == 0:
         print( x, "is dividable by both 7 and 11." )
-else:
-    print( x, "is dividable by 7, but not by 11." )
-
-# --- Here ends the nested block of code ---
-x = 41 
-
+    else:
+        print( x, "is dividable by 7, but not by 11." )
 elif x %11 == 0:
     print( x, "is dividable by 11, but not by 7." )
 else:

@@ -31,7 +31,7 @@ def get_largest(num):
 x,y,z = map(int, input('Enter three numbers: ').split())
 print(get_largest(x,y,z))
 
-OR 
+# OR 
 
 def get_largest (num, num1, num2):
     largest = float('-inf')
